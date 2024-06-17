@@ -8,7 +8,7 @@
 
 #Example name: Deploy HTML Files to AppService - COURSENAME
 
-name: Deploy HTML Files to AppService - CMST386
+name: Deploy HTML Files to AppServiceCMST386Mayo
 
 on:
 
@@ -36,7 +36,7 @@ jobs:
 
       #Change the app-name to match what was provided to you in the publish settings file, this is in a naming convention of 'COURSENAME-STUDENTUID'
 
-        app-name: 'cmst386bmayo'
+        app-name: 'cmst386mayo'
 
         slot-name: 'production'
 
