@@ -1,3 +1,7 @@
+body {
+  background-color: powderblue;
+}
+
 header {
   text-align: left;
   padding: 3px;
@@ -97,7 +101,7 @@ h2 {
   display: block;
 }
 
-.footer {
+footer {
   text-align: center;
   padding: 3px;
   background-color: black;
