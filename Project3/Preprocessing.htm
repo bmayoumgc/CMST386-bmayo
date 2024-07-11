@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <meta charset="UTF-8">
+ <meta name="description" content="Preprocessing Basics">
+ <meta name="keywords" content="Client-Side Preprocessing, Server-Side Preprocessing, Data Formatting, Data Validation, Aggregation, Security">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Learning Preprocessing</title>
+ <link rel="stylesheet" href="css/style.css">
+ <script src="script.js" type="text/javascript"></script>
+<body> 
+ <header>
+   <h1>CMST 386 Bruce Mayo</h1>
+   <div class="mobile"><a href="#" onclick="NAV();">&#9776;</a></div>
+ </header>
+
+
+
+  <div class="nav">
+    <a class="active" href="../index.htm">Home</a>
+    <a href="project3.htm">Project3</a>
+  </div>
+   
+<p>Preprocessing, whether implemented client-side or server-side, serves the purpose of optimizing and preparing data or content before it is delivered to the end user. Now let’s dive into the difference are between the client-side processing and server-side processing. The following is an explanation of both approaches…</p>
+    <h2>Client-Side Preprocessing</h2>
+<p>Client-side preprocessing involves handling data manipulation, formatting, or optimization directly within the user's browser or device. This approach leverages client-side scripting languages like JavaScript to perform tasks such as:</p>
+<h3>1.	Data Formatting </h3>
+<p>a.	Transforming data formats (e.g., converting dates, currency, or units) to match user preferences or application requirements.</p>
+<h3>2.	Data Validation</h3>
+<p>a.	Checking user inputs in forms for correctness or completeness before sending data to the server, reducing unnecessary server requests.</p>
+<h3>3.	Image Optimization</h3>
+<p>a.	Compressing or resizing images on-the-fly to reduce bandwidth usage and improve page load times.</p>
+<h3>4.	Dynamic Content Updates</h3>
+<p>a.	Modifying content dynamically based on user interactions or preferences without needing to reload the entire page.</p>
+<p>Client-side preprocessing can enhance user experience by reducing server load, improving responsiveness, and customizing content based on individual user interactions. However, it relies on the capabilities of the user's device and may expose logic or business rules that should be secured.</p>
+<h2>Server-Side Preprocessing</h2>
+<p>Server-side preprocessing involves handling data manipulation, formatting, or optimization on the server before delivering content to the client's browser or device. This approach typically uses server-side programming languages (e.g., PHP, Python, Node.js) and databases to perform tasks such as.</p>
+<h3>1.	Data Aggregation</h3>
+<p>a.	Gathering and summarizing data from multiple sources or databases before presenting it to the client.</p>
+<h3>2.	Authentication and Authorization</h3>
+<p>a.	Validating user credentials and permissions before allowing access to specific resources or data.</p>
+<h3>3.	Caching</h3>
+<p>a.	Storing frequently accessed data or content in memory or disk storage to improve response times and reduce database load.</p>
+<h3>4.	Security</h3>
+<P>a.	Implementing data sanitization, encryption, and access control measures to protect sensitive information from unauthorized access.</P>
+<p>Server-side preprocessing ensures consistency in data processing, enhances security by keeping sensitive operations away from the client side, and supports complex operations that require server resources. However, it may increase server load and response times depending on the complexity and volume of data processing.</p>
+<h2>Choosing Between Client-Side and Server-Side</h2>
+<p>The choice between client-side and server-side preprocessing depends on factors such as the nature of the task, performance considerations, security requirements, and user experience goals. In many cases, a combination of both approaches (where appropriate) can optimize overall system performance and user experience effectively.</p>
+<h2>LESS and SASS</h2>
+<p>LESS and SASS are both popular preprocessor languages that extend CSS with additional features to make styling more efficient and maintainable. Let's define and describe the key mechanisms used in both LESS and SASS:</p>
+<h3>1.	Variables:</h3>
+<p>a.	Variables allow you to store and reuse values throughout your stylesheets. This helps in maintaining consistency and makes it easier to update styles across multiple elements. In both LESS and SASS, variables are defined using a syntax similar to this:</p>
+<p>b.	Variables can then be used wherever the value is needed, such as in property values or within other mechanisms like mixins or functions.</p>
+<h3>2.	Mixins:</h3>
+<p>a.	Mixins are reusable blocks of code that can be included in other selectors. They allow you to encapsulate styles and behavior that you want to reuse across your stylesheets. Mixins can accept parameters, making them flexible and versatile.</p>
+<h3>3.	Functions:</h3>
+<p>a.	Functions in LESS and SASS allow for more complex operations and calculations within your stylesheets. They can be used to manipulate values, generate colors, or perform other transformations.</p>
+<p>Functions are particularly useful for creating color schemes, adjusting dimensions, or calculating responsive design values dynamically.</p>
+<h3>4.	Operators:</h3>
+<p>a.	Both LESS and SASS support various operators for performing arithmetic operations, combining values, and manipulating styles based on conditions.</p>
+<h3>5.	Nested Rules:</h3>
+<p>a.	Nested rules allow you to nest CSS selectors inside one another, which helps in organizing your styles and making the stylesheet more readable.</p>
+<p>d.	Nested rules help in reducing repetition and following a more hierarchical structure, which mirrors the HTML structure and improves maintainability.</p>
+<h3>6.	Conclusion:</h3>
+<p>LESS and SASS provide powerful mechanisms like variables, mixins, functions, operators, and nested rules that significantly enhance the capabilities of CSS. These features promote code reusability, maintainability, and efficiency in managing styles across large projects, making them indispensable tools for modern web development.</p>
+
+<a href="preprocessing.htm">BACK TO TOP</a> 
+<br>
+
+<footer>
+  <h4>2024 Bruce Mayo</h4>
+</footer>
+</body>
+</html>
