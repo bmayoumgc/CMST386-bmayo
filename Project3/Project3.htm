@@ -10,7 +10,9 @@
 <body>
  <header>
    <h1>CMST 386 Bruce Mayo</h1>
-   <div class="mobile"><a href="#" onclick="NAV();">&#9776;</a></div>
+   <div class="mobile">
+      <a href="#" onclick="NAV();">&#9776;</a>
+   </div>
  </header>
 
 
@@ -80,6 +82,15 @@
    <br>
 </div>
 <a href="Project3.htm">BACK TO TOP</a>
+
+<script>
+   function NAV() {
+       var nav = document.querySelector('.nav');
+       nav.classList.toggle('nav-visible'); // Toggle the visibility of the navigation menu
+   }
+</script>
+
+
 <footer>
   <h4>2024 Bruce Mayo</h4>
 </footer>
