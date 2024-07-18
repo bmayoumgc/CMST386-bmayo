@@ -9,6 +9,9 @@ header {
   position: relative;
 }
 
+h3 {
+  text-align: center;
+}
 h2 {
   text-align: center;
   padding: 3px;
@@ -179,6 +182,7 @@ a.btn {
 
 @media (min-width:600px) /* smartphones, iPhone, portrait 600px phones */
 {
+
   nav {
     border: 0;
     width: 33%
@@ -226,3 +230,40 @@ footer {
 .breadcrumbnav a:hover {
   text-decoration: underline;
 }
+
+/* Columns information */
+
+.wrapper {
+  padding: 0 10px 10px;
+}
+.columns{
+  margin: 0 -15px;
+  flex-wrap: wrap;
+  display: flex;
+}
+.col-25 {
+  width: calc(25% - 30px)
+}
+.col-33 {
+  width: calc(33.33% - 15px)
+}
+.col {
+  margin: 0 15px 30px;
+  padding: 20px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.555);
+}
+
+@media screen and (max-width: 800px) {
+  
+  .col-25{
+    width: 100%;
+  } 
+
+  .col-33 {
+    width: 100%;
+  }
+  
+}
+/* End Columns information */
