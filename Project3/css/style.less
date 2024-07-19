@@ -1,0 +1,94 @@
+@color_1: Black;
+@color_2: #f2f2f2;
+@color_3: black;
+@color_4: white;
+@color_5: #ffffff;
+@font_family_1: Arial;
+@background_color_1: powderblue;
+@background_color_2: #333;
+@background_color_3: #ddd;
+@background_color_4: #04AA6D;
+@background_color_5: #245191;
+@background_color_6: black;
+
+
+
+
+
+
+
+body {
+	background-color: @background_color_1;
+}
+header {
+	text-align: left;
+	padding: 3px;
+	color: @color_1;
+}
+h2 {
+	text-align: center;
+	padding: 3px;
+	color: @color_1;
+}
+p2 {
+	text-indent: 50px;
+}
+.topnav {
+	background-color: @background_color_2;
+	overflow: hidden;
+	a {
+		float: left;
+		color: @color_2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+		&:hover {
+			background-color: @background_color_3;
+			color: @color_3;
+		}
+	}
+	a.active {
+		background-color: @background_color_4;
+		color: @color_4;
+	}
+}
+a.btn {
+	width: 250px;
+	padding: 10px 25px 10px 25px;
+	font-family: @font_family_1;
+	font-size: 16px;
+	text-decoration: none;
+	color: @color_5;
+	background-color: @background_color_4;
+	text-shadow: -1px -1px 2px #618926;
+	border: 2px solid #618926;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	background: -moz-linear-gradient(#98ba40, #a6c250 35%, #618926);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #98ba40), color-stop(0.35, #a6c250), color-stop(1, #618926));
+	&:hover {
+		background-color: @background_color_5;
+		text-shadow: -1px -1px 2px #465f97;
+		border: 2px solid #0f2557;
+		border-radius: 8px;
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+		background: -moz-linear-gradient(#245192, #1e3b73 75%, #12295d);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #245192), color-stop(0.75, #1e3b73), color-stop(1, #12295d));
+	}
+}
+.row {
+	display: flex;
+}
+.column {
+	flex: 33.33%;
+	padding: 5px;
+}
+footer {
+	text-align: center;
+	padding: 3px;
+	background-color: @background_color_6;
+	color: @color_4;
+}
