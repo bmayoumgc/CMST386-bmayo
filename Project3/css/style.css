@@ -119,7 +119,7 @@ div.mobile a:link, div.mobile a:visited
 /* <uniquifier>: Use a unique and descriptive class name
    <weight>: Use a value from 400 to 700 */
 
-.lora-Roman> {
+.lora-Roman {
   font-family: "Lora", "serif";
   font-optical-sizing: auto;
   font-weight: 400;
