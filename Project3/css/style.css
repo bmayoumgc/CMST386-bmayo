@@ -120,7 +120,7 @@ div.mobile a:link, div.mobile a:visited
    <weight>: Use a value from 400 to 700 */
 
 .lora-Roman> {
-  font-family: "Lora", serif;
+  font-family: "Lora", "serif";
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -159,14 +159,10 @@ a.btn:hover {
 }
 
 a.btn { 
-  border-radius: 8px; 
-  -moz-border-radius: 8px; 
-  -webkit-border-radius: 8px; 
+  border-radius: 8px;
 } 
 a.btn:hover { 
   border-radius: 8px; 
-  -moz-border-radius: 8px; 
-  -webkit-border-radius: 8px; 
 }
 
 a.btn { 
