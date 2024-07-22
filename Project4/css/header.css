@@ -1,0 +1,27 @@
+ul {
+  margin-left: 20px;
+  display: inline-block;
+  list-style: none;
+  
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 100px;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  font-size: 25px;
+  color: yellow;
+  padding: 0 20px;
+  font-family: "veranda", "Arial", "Sans-serif";
+  background-color: blue;
+}
+    
+ul li a:hover {
+  color: green;
+} 
