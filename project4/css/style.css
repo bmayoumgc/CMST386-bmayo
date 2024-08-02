@@ -46,7 +46,7 @@ h2 {
   font-family: "veranda", "Arial", "Sans-serif";
   font-size: 20px;
   margin: 0px;
-  padding: 3px;
+  padding: 3px 30px 0px;
   color: Black;
 }
 
@@ -297,14 +297,7 @@ a.btn {
 }
 /* End Columns information */
 
-.p-capabilities {
-  color: brown;
-  font-size: 20px;
-  font-family: "veranda", "Arial", "Sans-serif";
-  margin: 10px;
-  text-align: center;
-  
-}
+
 .capabilities {
   flex-basis: 30%;
   display: flex;
@@ -314,13 +307,13 @@ a.btn {
 
 .capabilities img {
   width: 40%;
-  border-radius: 100px;
-  padding: 20px 20px 20px;
+  border-radius: 150px;
+  padding: 30px 30px 30px;
 }
 
 .capabilities p {
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   padding: 20px 20px 20px;   
 }
 
@@ -351,3 +344,17 @@ a.btn {
   padding: 5px 20px 5px;   
 }
 
+form {
+  width: 400px;
+  display:inline-table;
+}
+
+input {
+  width: 400px;
+}
+
+.figure img {
+  width: 40%;
+  border-radius: 150px;
+  padding: 100px 100px 100px;
+}
