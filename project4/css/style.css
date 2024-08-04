@@ -73,6 +73,14 @@ p {
   padding: 5px;
 }
 
+form {
+  flex: 33.33%;
+  padding: 5px;
+  text-align: left;
+  justify-content: left;
+  
+}
+
 /* BEGIN NAVIGATION BAR*/
 
 /* Add a black background color to the top navigation */
@@ -311,6 +319,13 @@ a.btn {
   padding: 30px 30px 30px;
 }
 
+.a img {
+  width: 40%;
+  border-radius: 150px;
+  padding: 30px 30px 30px;
+
+}
+
 .capabilities p {
   text-align: center;
   font-size: 14px;
@@ -344,17 +359,39 @@ a.btn {
   padding: 5px 20px 5px;   
 }
 
+/* contact form info*/
 form {
-  width: 400px;
+  width: 550px;
   display:inline-table;
+}
+
+form input[type="radio"] {
+  float: left;
+  width: 20px;
+  margin-right: 10px;
+}
+
+form label {
+  width: 100px;
 }
 
 input {
   width: 400px;
 }
 
-.figure img {
-  width: 40%;
-  border-radius: 150px;
-  padding: 100px 100px 100px;
+form input[type="checkbox"] {
+  float: left;
+  width: 20px;
+  margin-right: 10px;
 }
+
+textarea {
+  width: 550px;
+}
+
+button {
+  float: right;
+}
+
+/* End contact form info*/
+

@@ -114,5 +114,20 @@ word-break: break-word !important;
                 <li><a href="Cookie_Policy.htm">Cookie Policy</a></li>
               </ul2>
                 <h4>2024 Bruce Mayo</h4>
+                <br>
+                <p id="myId"></p> 
+                <script> 
+                 var date = new Date(); 
+                 var dd = date.getDate(); 
+                 var mm = date.getMonth() + 1; 
+                 var yyyy = date.getFullYear(); 
+                 var hh = date.getHours(); 
+                 var MM = date.getMinutes(); 
+                 var ss = date.getSeconds(); 
+                 var newDate = mm + "-" + dd + "-" + yyyy; 
+                 var time = hh + " : " + MM + " : " + ss; 
+                 var p = document.getElementById("myId"); 
+                 p.innerHTML = newDate + " " + time; 
+                 </script> 
               </div>
           </footer>

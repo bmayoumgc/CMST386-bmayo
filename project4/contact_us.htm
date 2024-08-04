@@ -1,86 +1,190 @@
 <!DOCTYPE html>
- <html lang="en">
- <meta charset="UTF-8">
- <meta name="description" content="Responsive Design">
- <meta name="keywords" content="communications Intelligence,Supply Chain Management,Detection systems,Information Assurances,Systems Architecture,Software Intergration">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Contact Us</title>
- <link rel="stylesheet" href="css/style.css">
- <script src="script.js" type="text/javascript"></script>
-
- <head>
-  <meta charset="UTF-8">
-  <title>Contact Us</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/footer.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Responsive Design">
+    <meta name="keywords" content="communications Intelligence,Supply Chain Management,Detection systems,Information Assurances,Systems Architecture,Software Intergration">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script defer="script.js" type="text/javascript"></script>
 </head>
-<header> 
-<h1>Mayo Information Technology Consulting, LLC.</h1>
-<div class="mobile">
- <a href="#" onclick="NAV();">&#9776;</a>
-</div>
-<br>
-<br>
-<div class="nav">  
-<a class="active" href="../index.htm">Home</a>
-<a href="services.htm">Services</a>
-<a href="capabilities.htm">Capabilities</a> 
-<a href="about.htm">About</a>
-<a href="contact_us.htm">Contact Us</a> 
-</div>
-</header>
+<body>
+    <header>
+        <h1>Mayo Information Technology Consulting, LLC.</h1>
+        <div class="mobile">
+            <a href="#" onclick="NAV();">&#9776;</a>
+        </div>
+        <br>
+        <br>
+        <div class="nav">  
+            <a class="active" href="../index.htm">Home</a>
+            <a href="services.htm">Services</a>
+            <a href="capabilities.htm">Capabilities</a> 
+            <a href="about.htm">About</a>
+            <a href="contact_us.htm">Contact Us</a> 
+        </div>
+    </header>
 
-<main>
-  <br>
-  <br>
-  <br>
-  <br>
-<form action="mailto:bmayo@student.umgc.edu">
-  <input type="text" name="email" placeholder="Write your e-mail...">
-  
-    male: <input type="radio" name="gender" value="male">
-    female: <input type="radio" name="gender" value="female">
-    other: <input type="radio" name="gender" value="other">
-  
-  <textarea name="message" placeholder="write a message"></textarea>
-  <select name="car">
-    <option value="none">None</option>
-    <option value="option1">Option1</option>
-    <option value="option2">OPtion2</option>
-  </select>
-  <input type="submit" name="submit">
-  <br>
-  <br>
-  <br>
-  <br>
-  <button type="submit" name="Submit">Submit</button>
+    <main>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>Contact Form</h1>
+        <div id="error">
+            <form id="form" action="mailto:bmayo@student.umgc.edu">
+                <button type="submit" name="Submit">Submit</button>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div>
+                        <label for="name"><h2>Your Name:</h2></label>
+                        <br>
+                        <input id=name name="name" type="text" placeholder="Write your Name here" required>
+                    </div>
+                    <br>  
+                    <hr>
+                    <br>
+                    <div>
+                        <label for="email"><h2>Your E-mail:</h2></label>
+                        <br>
+                        <input id=email name="email" type="text" name="email" placeholder="Write your e-mail..." required>
+                    </div>
+                    <br>  
+                    <hr>
+                    <br>
+                    <div>
+                        <label for="name"><h2>Preferred contact number:</h2></label>
+                        <br>
+                        <input id=number name="number" type="text" placeholder="Write your number here" required></h2>
+                    </div>
+                    <br>  
+                    <hr>
+                    <br>
+                    <h2>How did you hear about us</h2>
+                    <div> 
+                        <input type="radio" id="Referral" name="yes" value="no" required/>
+                        <label for="Referral">Referral</label>
+                    </div>
+                        <input type="radio" id="Publication" name="yes" value="no" required/>
+                        <label for="Publication">Publication</label>
+                    <div>
+                        <input type="radio" id="FaceBook" name="yes" value="no" required/>
+                        <label for="FaceBook">FaceBook</label>
+                    </div>
+                    <div> 
+                        <input type="radio" id="Instagram" name="yes" value="no" required/>
+                        <label for="Instagram">Instagram</label>
+                    </div>
+                    <div> 
+                        <input type="radio" id="Website" name="yes" value="no" required/>
+                        <label for="Website">Website</label>    
+                    </div> 
+                    <br>  
+                    <hr>
+                    <br>  
+                    <h2>What services are you seeking?</h2>
+                    <br>  
+                    <div> 
+                        <input type="checkbox" tabindex="5" id="Communications Intelligence" name="yes" value="no"/>
+                        <label for="Communications Intelligence">Communications Intelligence</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" tabindex="0" id="Supply Chain Management" name="yes" value="no"/>
+                        <label for="Supply Chain Management">Supply Chain Management</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" tabindex="3" id="Detection System" name="yes" value="no"/>
+                        <label for="Detection System">Detection System</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" tabindex="2" id="Systems Architecture" name="yes" value="no"/>
+                        <label for="Systems Architecture">Systems Architecture</label>
+                    </div>
+                    <div> 
+                        <input type="checkbox" tabindex="1" id="Information Assurances" name="yes" value="no"/>
+                        <label for="Information Assurances">Information Assurances</label>    
+                    </div>
+                    <div>
+                        <input type="checkbox" tabindex="5" id="Software Intergration" name="yes" value="no"/>
+                        <label for="Software Intergration">Software Intergration</label>    
+                    </div> 
+                    <br>
+                    <hr>
+                    <br>
+                    <h2>Please tell us how we can help you</h2>
+                    <textarea name="message" placeholder="write a message"></textarea>
+                    <br>
+                    <hr>
+                    <br>
+                    <h2>What NAICS services does your request fall under?</h2>
+                    <select name="NAICS">
+                        <option value="none">None</option>
+                        <option value="443120 - Computer and Software Stores">443120 - Computer and Software Stores</option>
+                        <option value="518210 - Data Processing, Hosting, and Related Services">518210 - Data Processing, Hosting, and Related Services</option>
+                        <option value="541512 - Computer Systems Design Services">541512 - Computer Systems Design Services</option>
+                        <option value="541510 - Computer Systems Design & Related Services">541510 - Computer Systems Design & Related Services</option>
+                        <option value="541510 - Computer Systems Design & Related Services">541510 - Computer Systems Design & Related Services</option>
+                        <option value="541513 - Computer Facilities Management Services">541513 - Computer Facilities Management Services</option>
+                        <option value="541519 - Other Computer Related Services">541519 - Other Computer Related Services</option>
+                        <option value="541611 - Administrative Management and General Management Consulting Services">541611 - Administrative Management and General Management Consulting Services</option>
+                        <option value="541600 - Management, Scientific & Technical Consulting Services">541600 - Management, Scientific & Technical Consulting Services</option>
+                        <option value="561110 - Office Administrative Services">561110 - Office Administrative Services</option>
+                        <option value="541330 - Engineering Services">541330 - Engineering Services</option>
+                        <option value="561210 - Facilities Support Services">561210 - Facilities Support Services</option>
+                        <option value="611420 - Computer Training">611420 - Computer Training</option>
+                    </select>
+                    <hr>
+                    <br>
+                    <br>
+                </fieldset>
+                <button type="submit" name="Submit">Submit</button>
+            </form>
+        </div>
+    </main>            
 
-
-
-</form>
-
-
-
-  <div class="breadcrumbnav">
+<div class="breadcrumbnav">
+  <ul>
     <li><a href="../index.htm">Home</a></li>
     <li><a href="services.htm">Services</a></li>
     <li><a href="about.htm">About</a></li>
     <li><a href="contact_us.htm">Contact Us</a></li>
-  </div>
+  </ul>
+</div>
+
+<footer>
   <script>
     function NAV() {
         var nav = document.querySelector('.nav');
         nav.classList.toggle('nav-visible'); // Toggle the visibility of the navigation menu
     }
- </script>
-</main>
-  <footer>
-      <div>
+  </script>
+
+
+    <div>
       <ul2>
         <li><a href="Privacy_Policy.htm">Privacy Policy</a></li>
         <li><a href="Cookie_Policy.htm">Cookie Policy</a></li>
       </ul2>
         <h4>2024 Bruce Mayo</h4>
-      </div>
+        <br>
+        <p id="myId"></p> 
+        <script> 
+            var date = new Date(); 
+            var dd = date.getDate(); 
+            var mm = date.getMonth() + 1; 
+            var yyyy = date.getFullYear(); 
+            var hh = date.getHours(); 
+            var MM = date.getMinutes(); 
+            var ss = date.getSeconds(); 
+            var newDate = mm + "-" + dd + "-" + yyyy; 
+            var time = hh + " : " + MM + " : " + ss; 
+            var p = document.getElementById("myId"); 
+            p.innerHTML = newDate + " " + time; 
+         </script> 
+    </div>
   </footer>
+</body>
+</html>
 
