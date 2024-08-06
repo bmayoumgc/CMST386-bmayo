@@ -7,12 +7,12 @@ body {
   background-color: rgb(90, 177, 216);
 }
 
-.body-style {
+body-style {
 	width: 100%;
   margin: 0 -15px;
 }
 
-.body-style-flex {
+body-style-flex {
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
@@ -182,6 +182,7 @@ div.mobile a:link, div.mobile a:visited
 }
 
 /*END of the hamburger menu information */
+
 
 
 .breadcrumbnav {
