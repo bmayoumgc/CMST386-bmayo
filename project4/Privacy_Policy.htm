@@ -15,6 +15,7 @@
      <title>Privacy Policy</title>
      <link rel="stylesheet" href="css/style.css">
      <link rel="stylesheet" href="css/footer.css">
+     <link rel="icon" href="img/favicon.png">
 </head>
 <header>
   <h1>Mayo Information Technology Consulting, LLC.</h1>
@@ -38,6 +39,11 @@
 
 <main>
 
+  <br>
+  <script async src="https://cse.google.com/cse.js?cx=242870561eefe4157">
+ </script>
+ <div class="gcse-search"></div>
+ <br>
 <style>
     [data-custom-class='body'], [data-custom-class='body'] * {
             background: transparent !important;
@@ -107,19 +113,32 @@
                 nav.classList.toggle('nav-visible'); // Toggle the visibility of the navigation menu
             }
          </script>
+         
+
          </main>
-          <footer>
-              <div>
-              <ul2>
-                <li><a href="mailto:bmayo@student.umgc.edu">Email Us</a></li>
-                <li><a href="contact_us.htm">240-555-1212</a></li> 
-                <li><a href="contact_us.htm">john doe</a></li>
-                <li><a href="contact_us.htm">1234 Anyroad, Virginia</a></li>
-                <li><a href="Privacy_Policy.htm">Privacy Policy</a></li>
-                <li><a href="Cookie_Policy.htm">Cookie Policy</a></li>
-              </ul2>
-                <h4>2024 Bruce Mayo</h4>
-                <p>&copy; Copyright, MITConsulting</p>
-              </div>
-          </footer>
+         <footer>
+          <div>
+          <ul2>
+            <li><a href="Privacy_Policy.htm">Privacy Policy</a></li>
+            <li><a href="Cookie_Policy.htm">Cookie Policy</a></li>
+          </ul2>
+            <h4>2024 Bruce Mayo</h4>
+            <p>&copy; Copyright, MITConsulting</p>
+            <br>
+            <p id="myId"></p> 
+            <script> 
+             var date = new Date(); 
+             var dd = date.getDate(); 
+             var mm = date.getMonth() + 1; 
+             var yyyy = date.getFullYear(); 
+             var hh = date.getHours(); 
+             var MM = date.getMinutes(); 
+             var ss = date.getSeconds(); 
+             var newDate = mm + "-" + dd + "-" + yyyy; 
+             var time = hh + " : " + MM + " : " + ss; 
+             var p = document.getElementById("myId"); 
+             p.innerHTML = newDate + " " + time; 
+             </script> 
+          </div>
+      </footer>
 

@@ -184,60 +184,6 @@ div.mobile a:link, div.mobile a:visited
 /*END of the hamburger menu information */
 
 
-/* THE FOLLOWING ARE THE SETTINGS FOR THE CALL TO ACTION BUTTON */
-a.btn { 
-  width: 250px; 
-  padding: 10px 25px 10px 25px; 
-  font-family: Arial; 
-  font-size: 16px; 
-  text-decoration: none; 
-  color: #ffffff; 
-  background-color: #04AA6D; 
-} 
-
-a.btn:hover { 
-  background-color: #245191; 
-}
-
-a.btn { 
-  text-shadow: -1px -1px 2px #618926; 
-} 
-
-a.btn:hover { 
-  text-shadow: -1px -1px 2px #465f97; 
-}
-
-a.btn { 
-  border: 2px solid #618926; 
-} 
-
-a.btn:hover { 
-  border: 2px solid #0f2557; 
-}
-
-a.btn { 
-  border-radius: 8px; 
-  -moz-border-radius: 8px; 
-  -webkit-border-radius: 8px; 
-} 
-a.btn:hover { 
-  border-radius: 8px; 
-  -moz-border-radius: 8px; 
-  -webkit-border-radius: 8px; 
-}
-
-a.btn { 
-  background: -moz-linear-gradient(#98ba40, #a6c250 35%, #618926); 
-  background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #98ba40),color-stop(.35, #a6c250),color-stop(1, #618926)); 
-
-} a.btn:hover { 
-  background: -moz-linear-gradient(#245192, #1e3b73 75%, #12295d); 
-  background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #245192),color-stop(.75, #1e3b73),color-stop(1, #12295d)); 
-}
-
-/* END OF THE SETTINGS FOR THE CALL TO ACTION BUTTON */
-
-
 .breadcrumbnav {
   list-style: none;
   padding: 60px 60px 100px;
